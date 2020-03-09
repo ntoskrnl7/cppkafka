@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug examples/consumer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/consumer",
+            "args": [
+                "-blocalhost:9092",
+                "-ttest",
+                "-g3"
+            ],
+            "stopAtEntry": false,
+            "cwd": "",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "Debug examples/metadata",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/metadata",
+            "args": [
+                "-blocalhost:9092"
+            ],
+            "stopAtEntry": false,
+            "cwd": "",
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}

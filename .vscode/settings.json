@@ -1,0 +1,12 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_INSTALL_PREFIX=D:/modules/CppKafka",
+        "-DRDKAFKA_ROOT=D:/modules/RdKafka",
+        "-DBoost_LIBRARY_DIR_RELEASE=D:/boost/boost_1_72_0/stage/x64/lib",
+        "-DCPPKAFKA_BUILD_SHARED=OFF",
+        "-DCPPKAFKA_DISABLE_EXAMPLES=OFF",
+        "-DCPPKAFKA_CMAKE_VERBOSE=OFF",
+        "-DBoost_DEBUG=FALSE",
+        "-DBoost_USE_STATIC_LIBS=TRUE"
+    ]
+}
